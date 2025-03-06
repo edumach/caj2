@@ -21,7 +21,7 @@
 $caje = [
     [
         "nazev" => "Černý čaj",
-        "obrazek" => "tea-black.jpg",
+        "obrazek" => "https://www.vybornycaj.cz/wp-content/uploads/2021/08/cerny-caj-1024x683.jpg",
         "popis" => "Černý čaj je plně oxidovaný čaj s výraznou chutí a vůní. Má povzbuzující účinky díky vysokému obsahu kofeinu.",
         "vyuziti" => "Černý čaj se často pije samotný nebo s mlékem a cukrem. Používá se i jako základ pro ledové čaje."
     ]
