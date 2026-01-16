@@ -31,7 +31,7 @@ Obsahem cvičení je pomocí klonování repozitáře z GitHubu zprovoznit jedno
 5. Web obsahuje jeden vzorový článek o černém čaji. Podle stejného schématu a struktury přidej na stránku další dva čaje. Vhodné obrázky a doprovodné texty si dohledej na webu [www.vybornycaj.cz](https://www.vybornycaj.cz):
 6. Do projektu přidej obrázek (stačí odkaz) a vytvoř kód pro zobrazení druhého čaje.
 7. Do projektu přidej obrázek (stačí odkaz) a vytvoř kód pro zobrazení třetího čaje.
-8. Pod každý z čajů přidej hypertextový odkaz na články o tomto čaji. Ten bude vložený v odstavci. Text bude pro každý ze tří odkazů stejný: "Více informací".
+8. Pod každý z čajů přidej hypertextový odkaz na články o tomto čaji. Ten bude vložený v odstavci. Text bude pro každý ze tří odkazů stejný: "**Více informací**".
 
 ## Odevzdání
 - Funkční web na URL: `https://tux.panska.cz/~10XPrijmeniJ/caj2`. Kontrolu si provedu přímo tam.
