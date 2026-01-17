@@ -16,8 +16,6 @@
 <hr>
 
 <?php
-// Deklarace pole $caje obsahující informace o čajích
-// samotné prvky pole $caje (zde jeden vzorový) jsou asociativní: "klíč" => "hodnota"
 $caje = [
     [
         "nazev" => "Černý čaj",
@@ -25,7 +23,7 @@ $caje = [
         "popis" => "Černý čaj je plně oxidovaný čaj s výraznou chutí a vůní. Má povzbuzující účinky díky vysokému obsahu kofeinu.",
         "vyuziti" => "Černý čaj se často pije samotný nebo s mlékem a cukrem. Používá se i jako základ pro ledové čaje."
     ]
-    // další prvek pole se od předchozího odděluje čárkou
+    // další pole se od předchozího odděluje čárkou
   
 ];
 
@@ -41,7 +39,8 @@ foreach ($caje as $caj) {
 }
 ?>
 
-<p>&copy; <?php echo date("Y"); ?> Čaje</p>
+<hr>
+<p>&copy; <?php echo date("Y"); ?> | Čaje &ndash; Svět chutí a vůní</p>
 
 </body>
 </html>
