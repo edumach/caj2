@@ -49,7 +49,7 @@
 
 ## Úkoly (jsou DVA a prolínají se!)
 
-1. Web obsahuje jeden vzorový článek o černém čaji. Podle stejného schématu a struktury přidej na stránku další čaj. Název čaj, obrázek (hypertextový odkaz) a doprovodný text čerpej webu [www.vybornycaj.cz](https://www.vybornycaj.cz).
+1. Web obsahuje jeden vzorový článek o černém čaji. Podle stejného schématu a struktury přidej na stránku další čaj. Název čaje, obrázek (hypertextový odkaz) a doprovodný text. Informace čerpej z webu [www.vybornycaj.cz](https://www.vybornycaj.cz).
 
 2. Vytvoř git commit, popis bude název čaje, např. "Přidaný čaj..."
 
