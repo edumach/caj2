@@ -71,9 +71,6 @@ Funkční web na URL: `https://tux.panska.cz/~10XPrijmeniJ/caj2`.
 
 Git repozitář (adresář **`caj2`**) bude nahraný na vašem úložišti **`gitlab.panska.cz`**. Kontrolu si provedu přímo na něm.
 
-1. Odpojit existující vazbu repozitáře na GitHub.
-2. Napojit lokální repozitář na svůj GitLab.
-3. Odeslat změny.
 
 
 
