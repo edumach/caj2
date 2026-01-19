@@ -59,11 +59,21 @@
    
 5. Dokonči commitem "Přidány URL"
 
-## Odevzdání
+## Odevzdání a hodnocení
 
-Z cvičení budou celkem dvě známky:
+Z tohoto cvičení budou celkem **dvě známky**:
 
-1. Funkční web na URL: `https://tux.panska.cz/~10XPrijmeniJ/caj2`. 
-2. Git commity. Kontrolu si provedu přímo na serveru.
+### (1) Funkční web
+
+Funkční web na URL: `https://tux.panska.cz/~10XPrijmeniJ/caj2`.
+
+### (2) Repozitář na GitLabu
+
+Git repozitář (adresář **`caj2`**) bude nahraný na vašem úložišti **`gitlab.panska.cz`**. Kontrolu si provedu přímo na něm.
+
+1. Odpojit existující vazbu repozitáře na GitHub.
+2. Napojit lokální repozitář na svůj GitLab.
+3. Odeslat změny.
+
 
 
