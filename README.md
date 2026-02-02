@@ -55,7 +55,7 @@
 2. Pod každým z čajů bude odkaz hypertextový odkaz "**Více informací**", který povede na nějaký jiný web s tímto druhem čaje. Ten si dohledejte. Tato URL budou vloženy jako prvky pole stejně, jako jiné údaje. Do těla cyklu `foreach` vlož odstavec, který vypíše vytvoří odkaz "Více informací" s příslušnou URL.
 
 ```php
-echo "<p><a href=\"{$caj['link']\"}>Více informací</a></p>";
+echo "<p><a href=\"{$caj['link']}\">Více informací</a></p>";
 ```
 
 ### (2) Repozitář na GitLabu
