@@ -18,8 +18,8 @@
 
     Běžné 1D asociativní pole vypadá takto:
 
-    ```php
-    $pole_1d = ["klic1" => "hodnota1", "klic2" => "hodnota2"]
+    ```html
+    $pole_1d = ["klic1" => "hodnota1", "klic2" => "hodnota2"];
     ```
 
     V následujícím ukázkovém případě jde o 2D pole. Jeho prvky jsou vnořené 1D pole: 
@@ -29,7 +29,7 @@
       ["klic1.1" => "hodnota1.1", "klic1.2" => "hodnota1.2"],
       ["klic2.1" => "hodnota2.1", "klic2.2" => "hodnota2.2"],
       ["klic3.1" => "hodnota3.1", "klic3.2" => "hodnota3.2"]
-    ]
+    ];
     ```
     
     >Asociativní pole není nic speciálního. Podporují jej i jiné jazyky. Např. Python má datový typ [Slovník](https://www.w3schools.com/python/python_dictionaries.asp) (dictionary).
