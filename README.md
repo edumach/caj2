@@ -47,18 +47,28 @@
 - Možnost snadné úpravy nebo rozšíření o nové čaje bez změny HTML.
 
 
-## Úkoly (jsou DVA a prolínají se!)
+## Úkoly (jsou DVA)
 
-1. Web obsahuje jeden vzorový článek o černém čaji. Podle stejného schématu a struktury přidej na stránku další čaj. Název čaje, obrázek (hypertextový odkaz) a doprovodný text. Informace čerpej z webu [www.vybornycaj.cz](https://www.vybornycaj.cz).
+### (1) Web - PHP
 
-2. Vytvoř git commit, popis bude název čaje, např. "Přidaný čaj..."
+1. Web obsahuje jeden vzorový článek o černém čaji. Podle stejného schématu a struktury přidej na stránku další dva čaje. Názvy, obrázky (hypertextový odkaz) a doprovodný text. Informace čerpej z webu [www.vybornycaj.cz](https://www.vybornycaj.cz).
+2. Pod každým z čajů bude odkaz hypertextový odkaz "**Více informací**", který povede na nějaký jiný web s tímto druhem čaje. Ten si dohledejte. Tato URL budou vloženy jako prvky pole stejně, jako jiné údaje. Do těla cyklu `foreach` vlož odstavec, který vypíše vytvoří odkaz "Více informací" s příslušnou URL.
 
-3. Přidej třetí čaj a dokonči commitem jako v předchozím případě.
+```php
+echo "<p><a href=\"{$caj['link']\"}>Více informací</a></p>";
+```
 
-4. Pod každým z čajů bude odkaz hypertextový odkaz "**Více informací**", který povede na nějaký jiný web s tímto druhem čaje. Ten si dohledejte. Tato URL budou vloženy jako prvky pole stejně, jako jiné údaje. Do těla cyklu `foreach` vlož odstavec, který vypíše vytvoří odkaz "Více informací" s příslušnou URL.
+### (2) Repozitář na GitLabu
+
+Git repozitář (adresář **`caj2`**) bude nahraný na vašem úložišti **`gitlab.panska.cz`**. Kontrolu si provedu přímo na něm.
+
+Technicky jde o tento postup:
+1. Propojit TuX s GitLabem ssh klíčem a otestovat, zda funguje: `ssh-keygen...` a `ssh -T...`
+2. Odpojit existující vazbu repozitáře na GitHub: `git remote remove...`
+3. Napojit lokální repozitář na svůj GitLab: `git remote add...`
+4. Odeslat změny: `git push...`
+
    
-5. Dokonči commitem "Přidány URL"
-
 ## Odevzdání a hodnocení
 
 Z tohoto cvičení budou celkem **dvě známky**:
