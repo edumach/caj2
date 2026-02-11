@@ -8,7 +8,7 @@
     ```
     $ cd www
     $ git clone https://github.com/edumach/caj2
-    cd caj2
+    $ cd caj2
     ```
 4. Zkontroluj funkčnost webu na URL `https://tux.panska.cz/~10XPrijmeniJ/caj2`
 
@@ -61,13 +61,6 @@ echo "<p><a href=\"{$caj['link']}\">Více informací</a></p>";
 ### (2) Repozitář na GitLabu
 
 Git repozitář (adresář **`caj2`**) bude nahraný na vašem úložišti **`gitlab.panska.cz`**. Kontrolu si provedu přímo na něm.
-
-Technicky jde o tento postup:
-1. Propojit TuX s GitLabem ssh klíčem a otestovat, zda funguje: `ssh-keygen...` a `ssh -T...`
-2. Odpojit existující vazbu repozitáře na GitHub: `git remote remove...`
-3. Napojit lokální repozitář na svůj GitLab: `git remote add...`
-4. Odeslat změny: `git push...`
-
    
 ## Odevzdání a hodnocení
 
